@@ -1,11 +1,13 @@
 #include<iostream>
 using namespace std;
 
+const int MAX_A = 100000;
+
+
 int main(){
     int n;
     cin >> n;
 
-    long long a[100000];
 
     return 0;
 }
