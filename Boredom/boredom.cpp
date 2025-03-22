@@ -19,6 +19,10 @@ int main(){
     dp[0] = 0;
     dp[1] = freq[1];
 
+    for(int i = 2; i <= Max_A; i++){
+
+    }
+
 
 
     return 0;
