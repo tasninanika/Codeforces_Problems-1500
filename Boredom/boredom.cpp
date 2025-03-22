@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-const int MAX_A = 100000;
+const int max_a = 100000;
 
 int main(){
     int n;
