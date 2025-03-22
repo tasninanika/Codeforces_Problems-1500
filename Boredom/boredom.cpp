@@ -23,7 +23,7 @@ int main(){
         dp[i] = max(dp[i - 1], dp[i - 2] + freq[i]);
     }
 
-
+    cout << dp[Max_A] << endl;
 
     return 0;
 }
