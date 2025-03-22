@@ -8,6 +8,8 @@ int main(){
     cin >> n;
 
     vector<long long> freq(MAX_A + 1, 0);
+    vector<long long> dp(MAX_A + 1, 0);
+
 
 
     return 0;
