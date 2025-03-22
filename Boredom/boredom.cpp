@@ -10,6 +10,10 @@ int main(){
     vector<long long> freq(MAX_A + 1, 0);
     vector<long long> dp(MAX_A + 1, 0);
 
+    for(int i = 0; i < n; i++){
+
+    }
+
 
 
     return 0;
