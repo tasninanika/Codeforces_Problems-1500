@@ -16,6 +16,9 @@ int main(){
         freq[a] += a;
     }
 
+    dp[0] = 0;
+    dp[1] = freq[1];
+
 
 
     return 0;
