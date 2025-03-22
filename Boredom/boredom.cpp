@@ -11,7 +11,8 @@ int main(){
     vector<long long> dp(MAX_A + 1, 0);
 
     for(int i = 0; i < n; i++){
-        int x;
+        int a;
+        cin >> a;
     }
 
 
