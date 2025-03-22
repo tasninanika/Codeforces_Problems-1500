@@ -7,7 +7,7 @@ int main(){
     int n;
     cin >> n;
 
-    vector<long long> freq(MAX_A + 1, 0);
+    vector<long long> freq(max_a + 1, 0);
     vector<long long> dp(MAX_A + 1, 0);
 
     for(int i = 0; i < n; i++){
