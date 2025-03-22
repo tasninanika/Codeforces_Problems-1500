@@ -20,7 +20,7 @@ int main(){
     dp[1] = freq[1];
 
     for(int i = 2; i <= Max_A; i++){
-
+        dp[i] = max(dp[i - 1], dp[i - 2] + freq[i]);
     }
 
 
