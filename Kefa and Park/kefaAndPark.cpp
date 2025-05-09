@@ -31,6 +31,7 @@ int bfs(int x){
 						cnt[a] = cnt[t] + 1;
 					}
 					else if(cnt[t] > m) {
+						cnt[a] = cnt[t];
 
 
 
