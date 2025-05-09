@@ -45,6 +45,7 @@ int bfs(int x){
 
 
 int main(){
+	int t, x, y;
 
 
     return 0;
