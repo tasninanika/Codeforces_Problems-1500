@@ -22,6 +22,8 @@ int bfs(int x){
 		int a;
 		if(vec[t].size() == 1 and vis[vec[t][0]] == 1 and cnt[t] <= m) {
 			ans ++;
+		}
+		else {
 
 
 
