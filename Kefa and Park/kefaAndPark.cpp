@@ -50,6 +50,7 @@ int main(){
 	for(int i = 1; i <= n; i ++) {
 		cin >> cat[i];
 	}
+	for(int i = 1; i < n; i ++) {
 
 
     return 0;
