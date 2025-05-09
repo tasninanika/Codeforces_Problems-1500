@@ -54,6 +54,7 @@ int main(){
 		cin >> x >> y;
 		vec[x].push_back(y);
 		vec[y].push_back(x);
+	}
 
 
     return 0;
