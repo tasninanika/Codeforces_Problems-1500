@@ -11,6 +11,7 @@ int n, m;
 int bfs(int x){
 	memset(vis, 0, sizeof(vis));
 	memset(cnt, 0, sizeof(cnt));
+	int ans = 0;
 
 
 
