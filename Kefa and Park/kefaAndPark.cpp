@@ -16,6 +16,7 @@ int bfs(int x){
 	if(cat[x] == 1) cnt[x] = 1;
 	queue <int> que;
 	que.push(x);
+	while(!que.empty()) {
 
 
 
