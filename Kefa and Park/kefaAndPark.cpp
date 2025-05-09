@@ -8,6 +8,8 @@ int cnt[110000];
 vector<int> vec[110000];
 int n, m;
 
+int bfs(int x) {
+
 
 int main(){
 
