@@ -24,6 +24,7 @@ int bfs(int x){
 			ans ++;
 		}
 		else {
+			for(int i = 0; i < vec[t].size(); i ++){
 
 
 
