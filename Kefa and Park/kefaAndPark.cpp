@@ -39,6 +39,7 @@ int bfs(int x){
 			}
 		}
 	}
+	return ans;
 
 
 
