@@ -3,6 +3,7 @@ using namespace std;
 
 
 int cat[110000];
+int vis[110000];
 
 
 int main(){
