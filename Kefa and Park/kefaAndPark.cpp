@@ -38,6 +38,7 @@ int bfs(int x){
 				}
 			}
 		}
+	}
 
 
 
