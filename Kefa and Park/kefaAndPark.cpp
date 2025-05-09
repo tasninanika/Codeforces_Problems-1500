@@ -29,6 +29,8 @@ int bfs(int x){
 				if(vis[a] == 0) {
 					if(cat[a] == 1) {
 						cnt[a] = cnt[t] + 1;
+					}
+					else if(cnt[t] > m) {
 
 
 
