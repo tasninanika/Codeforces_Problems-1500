@@ -55,6 +55,7 @@ int main(){
 		vec[x].push_back(y);
 		vec[y].push_back(x);
 	}
+	int answer = bfs(1);
 
 
     return 0;
