@@ -52,6 +52,7 @@ int main(){
 	}
 	for(int i = 1; i < n; i ++) {
 		cin >> x >> y;
+		vec[x].push_back(y);
 
 
     return 0;
