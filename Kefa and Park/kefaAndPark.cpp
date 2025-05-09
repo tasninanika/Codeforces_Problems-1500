@@ -56,6 +56,7 @@ int main(){
 		vec[y].push_back(x);
 	}
 	int answer = bfs(1);
+	cout << answer << endl;
 
 
     return 0;
