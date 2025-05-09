@@ -36,6 +36,7 @@ int bfs(int x){
 					que.push(a);
 					vis[a] = 1;
 				}
+			}
 
 
 
