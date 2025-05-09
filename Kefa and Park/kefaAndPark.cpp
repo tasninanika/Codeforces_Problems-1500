@@ -13,6 +13,8 @@ int bfs(int x){
 	memset(cnt, 0, sizeof(cnt));
 	int ans = 0;
 	vis[x] = 1;
+	if(cat[x] == 1) cnt[x] = 1;
+	queue <int> que;
 
 
 
