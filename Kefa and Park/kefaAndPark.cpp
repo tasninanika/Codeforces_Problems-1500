@@ -17,6 +17,7 @@ int bfs(int x){
 	queue <int> que;
 	que.push(x);
 	while(!que.empty()) {
+		int t = que.front();
 
 
 
