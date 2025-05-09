@@ -37,6 +37,7 @@ int bfs(int x){
 					vis[a] = 1;
 				}
 			}
+		}
 
 
 
