@@ -51,6 +51,7 @@ int main(){
 		cin >> cat[i];
 	}
 	for(int i = 1; i < n; i ++) {
+		cin >> x >> y;
 
 
     return 0;
