@@ -21,6 +21,7 @@ int bfs(int x){
 		que.pop();
 		int a;
 		if(vec[t].size() == 1 and vis[vec[t][0]] == 1 and cnt[t] <= m) {
+			ans ++;
 
 
 
