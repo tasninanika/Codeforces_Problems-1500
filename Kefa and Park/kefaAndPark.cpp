@@ -28,6 +28,7 @@ int bfs(int x){
 				a = vec[t][i];
 				if(vis[a] == 0) {
 					if(cat[a] == 1) {
+						cnt[a] = cnt[t] + 1;
 
 
 
