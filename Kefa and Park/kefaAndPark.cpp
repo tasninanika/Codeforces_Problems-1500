@@ -8,7 +8,9 @@ int cnt[110000];
 vector<int> vec[110000];
 int n, m;
 
-int bfs(int x) {
+int bfs(int x){
+	memset(vis, 0, sizeof(vis));
+
 
 
 int main(){
