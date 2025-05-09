@@ -33,6 +33,7 @@ int bfs(int x){
 					else if(cnt[t] > m) {
 						cnt[a] = cnt[t];
 					}
+					que.push(a);
 
 
 
