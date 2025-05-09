@@ -3,6 +3,7 @@ using namespace std;
 
 const int max_a = 100000;
 
+
 int main(){
     int n;
     cin >> n;
