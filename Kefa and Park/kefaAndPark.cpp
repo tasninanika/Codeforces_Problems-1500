@@ -18,6 +18,7 @@ int bfs(int x){
 	que.push(x);
 	while(!que.empty()) {
 		int t = que.front();
+		que.pop();
 
 
 
