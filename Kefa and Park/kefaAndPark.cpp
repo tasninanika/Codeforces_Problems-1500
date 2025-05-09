@@ -26,6 +26,7 @@ int bfs(int x){
 		else {
 			for(int i = 0; i < vec[t].size(); i ++){
 				a = vec[t][i];
+				if(vis[a] == 0) {
 
 
 
