@@ -46,6 +46,7 @@ int bfs(int x){
 
 int main(){
 	int t, x, y;
+	cin >> n >> m;
 
 
     return 0;
