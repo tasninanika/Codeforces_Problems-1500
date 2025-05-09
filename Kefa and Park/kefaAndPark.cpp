@@ -47,6 +47,7 @@ int bfs(int x){
 int main(){
 	int t, x, y;
 	cin >> n >> m;
+	for(int i = 1; i <= n; i ++) {
 
 
     return 0;
