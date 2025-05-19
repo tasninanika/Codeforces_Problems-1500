@@ -8,7 +8,9 @@ int main(){
     while(getline(cin,s)){
         f = 0;
         for(int i = 0; i < s.size(); i++){
+            if(s[i] == 'A' && s[i + 1] == 'B'){
 
+            }
         }
     }
 
