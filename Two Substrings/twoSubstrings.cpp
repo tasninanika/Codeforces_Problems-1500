@@ -10,6 +10,7 @@ int main(){
         for(int i = 0; i < s.size(); i++){
             if(s[i] == 'A' && s[i + 1] == 'B'){
                 fnd = i;
+                p = 1;
             }
         }
     }
