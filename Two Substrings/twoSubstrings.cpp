@@ -24,7 +24,9 @@ int main(){
         }
 
         if(p == 2){
+            for(j = fnd + 2; j < s.size(); j++){
 
+            }
         }
     }
 
