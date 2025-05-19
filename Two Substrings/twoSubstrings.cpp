@@ -18,6 +18,7 @@ int main(){
             for(j = fnd + 2; j < s.size(); j++){
                 if(s[j] == 'B' && s[j + 1] == 'A'){
                     f = 1;
+                    break;
                 }
             }
         }
