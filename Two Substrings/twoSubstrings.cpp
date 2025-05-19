@@ -25,7 +25,9 @@ int main(){
 
         if(p == 2){
             for(j = fnd + 2; j < s.size(); j++){
+                if(s[j] == 'A' && s[j + 1] == 'B'){
 
+                }
             }
         }
     }
