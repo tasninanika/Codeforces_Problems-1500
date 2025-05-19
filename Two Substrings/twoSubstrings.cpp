@@ -23,6 +23,15 @@ int main(){
             }
         }
 
+         if(f == 0){
+            for(i = 0; i < s.size(); i++){
+                if(s[i]=='B' && s[i + 1] == 'A'){
+                    fnd = i;
+                    p = 2;
+                    break;
+                }
+            }
+
         if(p == 2){
             for(j = fnd + 2; j < s.size(); j++){
                 if(s[j] == 'A' && s[j + 1] == 'B'){
