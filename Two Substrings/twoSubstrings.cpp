@@ -32,7 +32,7 @@ int main(){
             }
         }
         if(f == 1){
-
+            cout << "YES" << endl;
         }
     }
 
