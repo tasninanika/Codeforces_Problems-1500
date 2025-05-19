@@ -6,7 +6,7 @@ int main(){
     string s;
 
     while(getline(cin,s)){
-
+        f = 0;
     }
 
 
