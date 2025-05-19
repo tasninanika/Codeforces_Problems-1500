@@ -15,7 +15,9 @@ int main(){
             }
         }
         if(p == 1){
+            for(j = fnd + 2; j < s.size(); j++){
 
+            }
         }
     }
 
