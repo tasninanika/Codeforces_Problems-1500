@@ -11,6 +11,7 @@ int main(){
             if(s[i] == 'A' && s[i + 1] == 'B'){
                 fnd = i;
                 p = 1;
+                break;
             }
         }
     }
