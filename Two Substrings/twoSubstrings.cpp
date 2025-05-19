@@ -17,7 +17,7 @@ int main(){
         if(p == 1){
             for(j = fnd + 2; j < s.size(); j++){
                 if(s[j] == 'B' && s[j + 1] == 'A'){
-
+                    f = 1;
                 }
             }
         }
